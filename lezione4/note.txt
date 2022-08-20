@@ -1,0 +1,7 @@
+Lesson useful to learn how to interact with the modules. Modules are that set of commands useful for interacting with an application
+
+=============== LESSON ===============
+
+[get-modules -ListAvailable] => show all available modules
+[import-module nameModule] => import a given module
+[get-command -module nameModule] => show all available commands for a given module

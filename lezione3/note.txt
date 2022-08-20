@@ -1,0 +1,11 @@
+Lesson useful to learn the use of the "get-process" and "compare-object" commands:
+    + former command is used to shows all processes that are active right now
+    +
+
+=============== LESSON ===============
+
+[get-process] => shows all processes that are active right now
+[get-process | Export-Clixml path\file.xml] => export the list in XML file
+[Compare-Object -ReferenceObject (Import-Clixml pathFile1) -DifferenceObject (Import-Clixml pathFile2)] => shows the differences between the two files, it acts a bit like the "diff" command for Linux
+[Compare-Object -ReferenceObject (Import-Clixml pathFile1) -DifferenceObject (Import-Clixml pathFile2) - property name] => shows the differences between the two files, by name
+

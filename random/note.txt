@@ -1,0 +1,14 @@
+Some commands and information about PWS, which are not part of specific lessons but may be useful:
+
+    * [cd] => move between directories, actually should be "set-location" command
+    * [dir] => acts like the Linux "ls" command ("ls" command also can be used), actually should be "get-childitem" command
+    * [CTRL + L] => like on Linux
+    * commands in the PWS are case-insensitive
+    * through the use of the up/down arrows we can scroll through the command history
+    * also here with the use of the TAB key there is auto-completion for PWS commands
+    * [pwd] => behaves as it does on Linux (alias of [get-location])
+    * [Get-EventLog -LogName system -Newest 10] => see the last 10 events in the system log
+    * [cls] or [clear] => empty the power shell
+    * [Start-Transcript] => creates a file (pattern shown) in which all commands launched in the power shell are saved
+    * [Get-Help Copy-Item] => see the manual for the specified command
+    * [Get-Help Copy-Item -examples] => see the manual for the specified command, also with some examples

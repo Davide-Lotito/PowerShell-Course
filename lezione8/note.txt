@@ -1,0 +1,20 @@
+!! This is actually indexed as lesson 9 on YT !!
+
+Lesson helpful in understanding how to manage files and folders with "Get-Item" "Move-Item" "Copy-Item" "Remove-Iterm" commands
+
+=============== LESSON ===============
+
+[set-location] => move in the directories
+[get-childitem] => show all content in the directory
+
+[md newFolder] => create a new directory
+[New-Item -ItemType Directory newFolder] => create a new directory
+
+[Copy-Item ./fileToCopy destinationFolder] => copy a certain file in a given folder
+
+[Move-Item ./fileToMove destinationFolder] => move a certain file in a given folder
+
+[Remove-Item fileToRemove] => remove a certain file
+
+
+

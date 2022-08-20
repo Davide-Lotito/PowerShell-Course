@@ -1,0 +1,17 @@
+This is a short course based on the YouTube Playlist: https://www.youtube.com/playlist?list=PL41j7vkwrst7vWMMQ8QjzY2Kg96Hv_NPT
+
+Let's start by saying that it is different from the old CMD, in fact the commands used will generally be different. 
+
+PowerShell will be referred to by its abbreviation as PWS
+
+=============== LESSON =============== 
+
+Let's start by looking at how to manage (list/stop/start) services with the PWS:
+
+    CMD -> [net start] => show all active services
+    CMD -> [net start/stop ServiceName] => start/stop a certain service
+
+    PWS -> [get-service] => show all services, both the stoppered ones and the running ones
+    PWS -> [get-service | where-object {$_.status -eq "running"}] => show only the active services
+    PWS -> [get-service | where-object {$_.name -eq "ServiceName"}] => look for a specific service
+    PWS -> [stop/start-service ServiceName] => stop/start a certain service

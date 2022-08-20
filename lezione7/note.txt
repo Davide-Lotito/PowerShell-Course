@@ -1,0 +1,22 @@
+Lecture devoted to networking and diagnostic commands. We will look at a number of commands
+
+=============== LESSON ===============
+
+[Get-NetIPConfiguration] => get the IP information about the machine
+[Get-NetIPAddress] => get all the IP associated with the machine
+
+[Test-NetConnection www.google.com] => a simply "ping" command
+
+[Resolve-DnsName www.google.com] => a simply "nslookup" command
+[Resolve-DnsName -Name domainName -Type MX] => like a "dig" query for type MX
+
+[Test-NetConnection www.google.com -Port 80] => test on a specific port, it is like a "Telnet" command
+[Test-NetConnection www.google.com -CommonTCPPort HTTP]
+
+[Get-NetRoute -Protocol Local -DestinationPrefix 192.168*] => view IP address routes in the local subnet
+
+[Test-NetConnection www.google.com -TraceRoute] => like a simple "traceroute" command
+[Get-NetTCPConnection] => to see which ports are listening and which are established
+
+
+

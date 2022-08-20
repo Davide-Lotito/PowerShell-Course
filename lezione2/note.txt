@@ -1,0 +1,13 @@
+Lecture focusing on the use of the "get-alias" and "set-alias" command:
+    + former command is used to show all aliases used in the operating system
+    + latter command is udes to set new aliases
+
+Note that unless otherwise specified, the command (and syntax) refer to the PWS
+
+=============== LESSON ===============
+
+[get-alias] => get all aliases
+[get-alias | where-object {$_.name -CLike "dir"}] => show the correspondence between alias "dir" and the original command
+[get-alias | where-object {$_.name -CLike "cd"}] => show the correspondence between alias "dir" and the original command
+
+[set-alias nameNewAlias originalCommand] => Set a new alias "nameNewAlias" for the command "originalCommand" 

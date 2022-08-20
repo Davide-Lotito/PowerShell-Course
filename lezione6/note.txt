@@ -1,0 +1,12 @@
+Lecture useful to learn how the ISE Power Shell works, how scripts are created, and how variables are used.
+
+Windows PowerShell ISE (Integrated Scripting Environment) is a host app for Windows PowerShell. 
+In the ISE, you can perform commands and write, test, and debug scripts in a single Windows-based graphic UI.
+
+The beauty of the ISE Power Shell is that it offers auto-completion, so it makes script writing easier. 
+
+In this lesson we focus on the use of the variables
+
+=============== LESSON ===============
+
+Look at the "variables.ps1" file in this folder 

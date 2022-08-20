@@ -1,0 +1,9 @@
+Lesson useful to learn how the "sort" command works. Command that can be concatenated with others. 
+
+=============== LESSON ===============
+
+[get-process | sort processname] => sort the list of process by 'name'
+[get-process | sort id] => sort the list of process by 'id'
+
+[Get-ChildItem |sort name] => sort by 'name' the list of item inside the actual folder
+[Get-EventLog -LogName system -Newest 10 | sort source] => sort by 'source' the list of newest 10 system log
