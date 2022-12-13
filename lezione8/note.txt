@@ -7,14 +7,15 @@ Lesson helpful in understanding how to manage files and folders with "Get-Item" 
 [set-location] => move in the directories
 [get-childitem] => show all content in the directory
 
+[Get-Content nameFilePath] => show the content of the file
+
 [md newFolder] => create a new directory
 [New-Item -ItemType Directory newFolder] => create a new directory
 
-[Copy-Item ./fileToCopy destinationFolder] => copy a certain file in a given folder
+[New-Item -Path 'C:\Users\user\Desktop\nameFile.txt' -ItemType File] => create a new file at the given path
 
-[Move-Item ./fileToMove destinationFolder] => move a certain file in a given folder
+[Copy-Item ./fileToCopy destinationFolderPath] => copy a certain file in a given folder
+
+[Move-Item ./fileToMove destinationFolderPath] => move a certain file in a given folder
 
 [Remove-Item fileToRemove] => remove a certain file
-
-
-
